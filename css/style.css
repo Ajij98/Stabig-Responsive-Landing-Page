@@ -1,0 +1,1086 @@
+body{
+  background-color: #fff;
+  width: 100%;
+}
+
+/*start navbar css*/
+nav .nav-link{
+	font-size: 16px;
+	margin-left: 30px;
+	color: #A8A8A8;
+	font-family: 'Poppins', sans-serif;
+}
+nav .nav_logo{
+	height: 30px;
+}
+nav .nav-link:hover{
+	color: #50C594;
+	text-decoration: none;
+}
+nav .contact_btn{
+	background-color: #50C594;
+	color: white;
+	border-radius: 3px;
+	transition: 0.6s;
+	text-decoration: none;
+}
+nav .contact_btn:hover{
+	background-color: white;
+	color: #50C594;
+	border-radius: 3px;
+	border: 1px solid #50C594;
+	text-decoration: none;
+}
+/*end navbar css*/
+
+
+/*start hero css*/
+#hero-section{
+  background: url("../img/banner-7.png") no-repeat center top;
+  background-size: cover;
+  background-position: center;
+  min-height: 650px;
+}
+.hero_head{
+	font-family: 'Poppins', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #263B5E;
+	margin-bottom: 25px;
+}
+.hero_title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	color: #263B5E;
+}
+.hero_text{
+	font-family: 'Poppins', sans-serif;
+	color: #A8A8A8;
+	margin-bottom: 25px;
+}
+.hero_btn{
+	background-color: #263B5E;
+	color: white;
+	border-radius: 3px;
+	padding: 10px 15px 10px 15px;
+	transition: 0.6s;
+}
+.hero_btn:hover{
+	background-color: transparent;
+	color: #263B5E;
+	border-radius: 3px;
+	border: 1px solid #263B5E;
+	padding: 10px 15px 10px 15px;	
+	text-decoration: none;
+}
+/*end hero css*/
+
+
+
+/*start solution css*/
+#solution-section{
+	margin-bottom: 80px;
+}
+.solution_head{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #263B5E;
+	margin-top: 80px;
+}
+.solution_title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	margin-bottom: 60px;
+	color: #A5A8C5;
+}
+#solution-section .card_logo{
+	height: 32px;
+}
+#solution-section .card-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	color: #50C594;
+}
+#solution-section .card-subtitle{
+	font-family: 'Poppins', sans-serif;
+}
+#solution-section .card{
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .8s transform cubic-bezier(.155,1.105,.295,1.12),.8s box-shadow,.8s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+#solution-section .card:hover{
+    transform: scale(1.05);
+  	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/*end solution css*/
+
+
+
+
+
+/*start customer support css*/
+#customer-support-section{
+	background-color: #F9F9FD;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.cussupport_logo{
+	max-width: 100%;
+	height: auto;
+}
+.cussupport_head{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #263B5E;
+	margin-left: 85px;
+	margin-top: 50px;
+}
+.cussupport_title{
+	font-family: 'Poppins', sans-serif;
+	color: #A5A8C5;
+	font-size: 20px;
+	margin-left: 85px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.card_section{
+	margin-left: 70px;
+}
+.card_section .card{
+	background-color: #F9F9FD;
+	border: 1px solid #CBEBDE;
+}
+.card_section .card-title{
+	font-family: 'Poppins', sans-serif;
+	color: #263B5E;
+	font-size: 16px;
+}
+.card_section .card-subtitle{
+	font-family: 'Poppins', sans-serif;
+	color: #263B5E;
+	font-size: 14px;
+}
+.card_section .card-text{
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	color: #A5A8C5;
+}
+/*end customer support css*/
+
+
+
+/*start service css*/
+#service-section{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.service_head{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #263B5E;
+}
+.service_title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	margin-bottom: 60px;
+	color: #A5A8C5;
+}
+#service-section .card{
+	border: none;
+}
+#service-section .card-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #263B5E;
+}
+#service-section .card-text{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #A5A8C5;
+}
+#service-section .card_btn{
+	background-color: white;
+	color: #50C594;
+	border-radius: 20px;
+	transition: 0.6s;
+}
+#service-section .card_btn:hover{
+	background-color: #50C594;
+	color: white;
+	border-radius: 20px;
+	text-decoration: none;
+}
+#service-section .card{
+    border-radius: 50px;
+    border: none;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .8s transform cubic-bezier(.155,1.105,.295,1.12),.8s box-shadow,.8s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+#service-section .card:hover{
+    transform: scale(1.05);
+  	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/*end service css*/
+
+
+
+/*start faq css*/
+#faq-section{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.faq_head{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #263B5E;
+	margin-bottom: 20px;
+}
+.faq_title{
+	font-family: 'Poppins', sans-serif;
+	color: #A5A8C5;
+	font-size: 20px;
+}
+.left_border{
+	border-left: 2px solid #50C594;
+	height: 30px;
+	margin-bottom: 30px;
+}
+#faq-section .accordion_section li{
+	margin-bottom: 35px;
+}
+#faq-section .uk-accordion-title{
+	font-family: 'Poppins', sans-serif;
+	color: #263B5E;
+	font-size: 15px;
+	font-weight: bold;
+}
+#faq-section .uk-accordion-content{
+	font-family: 'Poppins', sans-serif;
+	color: #A5A8C5;
+	font-size: 14px;
+}
+/*end faq section*/
+
+
+
+/*start price css*/
+#price-section{
+	background-color: #F9F9FD;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+#price-section .uk-card{
+	border-top: 2px solid #51C595;
+}
+.price_head{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #263B5E;
+}
+.price_title{
+	font-family: 'Poppins', sans-serif;
+	color: #A5A8C5;
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+#price-section .uk-card-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #263B5E;
+	font-weight: bold;
+}
+#price-section .price_border{
+	border-top: 1px solid #A5A8C5; 
+	width: 40%; 
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#price-section .price_text{
+	font-size: 30px;
+	color: #263B5E;
+}
+#price-section .month_text{
+	font-size: 14px;
+	color: #A5A8C5;
+}
+#price-section .trail_btn{
+	background-color: #50C594;
+	color: white;
+	border-radius: 3px;
+	transition: 0.6s;
+	margin-top: 10px;
+}
+#price-section .trail_btn:hover{
+	background-color: white;
+	color: #50C594;
+	border-radius: 3px;
+	border: 1px solid #50C594;
+	text-decoration: none;
+}
+#price-section li{
+	color: #263B5E;
+}
+#price-section ul li i{
+	color: #50C594;
+}
+/*end price css*/
+
+
+
+/*start client css*/
+#client-section{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.client_head{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #263B5E;
+}
+.client_title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	margin-bottom: 60px;
+	color: #A5A8C5;
+}
+.border_bottom{
+	border: 1px solid green;
+	width: 10px;
+}
+#client-section .uk_head{
+	font-family: 'Poppins', sans-serif;
+	color: #263B5E;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+}
+#client-section .uk_title{
+	font-family: 'Poppins', sans-serif;
+	color: #A5A8C5;
+	font-size: 15px;
+}
+#client-section p{
+	font-family: 'Poppins', sans-serif;
+	color: #A5A8C5;
+	font-size: 15px;
+}
+#client-section .border_top{
+	border-top: 1px solid #50C594; 
+	width: 10%; 
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#client-section .uk-card-default{
+	box-shadow: none;
+}
+/*end client css*/
+
+
+
+/*start join us css*/
+#join-us-section{
+	padding-top: 0px;
+	padding-bottom: 90px;
+}
+#join-us-section .container{
+	background-color: #F9F9FD;
+	border-radius: 5px;
+}
+#join-us-section .subscribe_section{
+	padding: 50px;
+}
+#join-us-section h4{
+	font-family: 'Poppins', sans-serif;
+	color: #50C594;
+	font-size: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+#join-us-section h3{
+	font-family: 'Poppins', sans-serif;
+	color: #263B5E;
+	font-size: 25px;
+	margin-top: 0px;
+	padding-top: 20px;
+}
+#join-us-section p{
+	font-family: 'Poppins', sans-serif;
+	color: #A5A8C5;
+	font-size: 16px;
+}
+#join-us-section .subscribe_btn{
+	background-color: #50C594;
+	color: white;
+	border-radius: 3px;
+	transition: 0.6s;
+	margin-top: 10px;
+}
+#join-us-section .subscribe_btn:hover{
+	background-color: white;
+	color: #50C594;
+	border-radius: 3px;
+	border: 1px solid #50C594;
+	text-decoration: none;
+}
+/*end join us css*/
+
+
+
+
+/*start brand css*/
+#brand-section{
+	padding-top: 30px;
+	padding-bottom: 120px;
+}
+/*end brand css*/
+
+
+
+
+/*start join us css*/
+#footer-section{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background-color: #263B5E;
+}
+#footer-section h4{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 16px;
+}
+#footer-section p{
+	font-family: 'Poppins', sans-serif;
+	color: #50C594;
+	font-size: 15px;
+}
+#footer-section ul li{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+#footer-section ul li a{
+	text-decoration: none;
+}
+#footer-section .copyright_text{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+#footer-section iframe{
+	border-radius: 5px;
+}
+/*end join us css*/
+
+
+
+
+/*extra small device*/
+@media(max-width: 575px){
+	nav .nav_logo{
+		height: 20px;
+	}
+	/*start hero css*/
+  	#hero-section{
+	  background: url("../img/banner.jpg") no-repeat center top;
+	  background-size: cover;
+	  background-position: center;
+	  min-height: 500px;
+	}
+	#hero-section .primary-overlay{
+	  background: rgba(0, 0, 0, 0.7);
+	  min-height: 500px;
+	}
+	.hero_head{
+		font-family: 'Poppins', sans-serif;
+		font-size: 25px;
+		font-weight: bold;
+		color: white;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	.hero_title{
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
+		color: #4FC594;
+		text-align: center;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.hero_text{
+		font-family: 'Poppins', sans-serif;
+		color: white;
+		font-size: 14px;
+		margin-bottom: 25px;
+		text-align: center;
+		margin-top: 10px;
+		padding-top: 0px;
+	}
+	.hero_btn{
+		background-color: #4FC594;
+		color: white;
+		font-size: 14px;
+		border-radius: 3px;
+		padding: 8px 10px 8px 10px;
+		transition: 0.6s;
+	}
+	.hero_btn:hover{
+		background-color: transparent;
+		color: white;
+		font-size: 14px;
+		border-radius: 3px;
+		border: 1px solid #4FC594;
+		padding: 8px 10px 8px 10px;
+		text-decoration: none;
+	}
+	#hero-section .container {
+	  height: 200px;
+	  position: relative;
+	}
+
+	#hero-section .center {
+	  margin: 0;
+	  position: absolute;
+	  top: 210%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	}
+	/*end hero css*/
+
+	/*start solution css*/
+	#solution-section{
+		margin-bottom: 60px;
+	}
+	.solution_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		color: #263B5E;
+		margin-top: 60px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.solution_title{
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+		padding-top: 0px;
+		color: #A5A8C5;
+	}
+	/*end solution css*/
+
+	/*start customer support css*/
+	#customer-support-section{
+		background-color: #F9F9FD;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	
+	.cussupport_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		color: #263B5E;
+		margin-left: 10px;
+		margin-top: 50px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.cussupport_title{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 16px;
+		margin-left: 10px;
+		margin-bottom: 30px;
+		margin-top: 20px;
+		padding-top: 0px;
+	}
+	.card_section{
+		margin-left: 0px;
+	}
+	/*end customer support css*/
+
+
+	/*start service css*/
+	#service-section{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.service_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		color: #263B5E;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.service_title{
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+		padding-top: 0px;
+		color: #A5A8C5;
+	}
+	/*end service css*/
+
+	/*start faq css*/
+	#faq-section{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.faq_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		color: #263B5E;
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+	.faq_title{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 16px;
+		margin-left: 10px;
+	}
+	.left_border{
+		border-left: 2px solid #50C594;
+		height: 30px;
+		margin-bottom: 30px;
+		margin-left: 10px;
+	}
+	#faq-section .accordion_section li{
+		margin-bottom: 35px;
+		margin-left: 5px;
+	}
+	#faq-section .uk-accordion-title{
+		font-family: 'Poppins', sans-serif;
+		color: #263B5E;
+		font-size: 15px;
+		font-weight: bold;
+		margin-left: 5px;
+	}
+	#faq-section .uk-accordion-content{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 16px;
+		margin-left: 5px;
+	}
+	/*end faq section*/
+
+	/*start price css*/
+	#price-section{
+		background-color: #F9F9FD;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.price_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		color: #263B5E;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.price_title{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 16px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+	}
+	/*end price css*/
+
+	/*start client css*/
+	#client-section{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.client_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		color: #263B5E;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	#client-section .client_title{
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+		color: #A5A8C5;
+	}
+	.border_bottom{
+		border: 1px solid green;
+		width: 10px;
+	}
+	#client-section .uk_head{
+		font-family: 'Poppins', sans-serif;
+		color: #263B5E;
+		font-weight: bold;
+		font-size: 16px;
+		margin-bottom: 10px;
+		padding-bottom: 0px;
+	}
+	/*end client css*/
+
+	/*start join us css*/
+	#join-us-section{
+		padding-top: 0px;
+		padding-bottom: 60px;
+	}
+	#join-us-section .subscribe_section{
+		padding: 50px;
+	}
+	#join-us-section h4{
+		font-family: 'Poppins', sans-serif;
+		color: #50C594;
+		font-size: 20px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	#join-us-section h3{
+		font-family: 'Poppins', sans-serif;
+		color: #263B5E;
+		font-size: 20px;
+		margin-top: 0px;
+		padding-top: 20px;
+	}
+	#join-us-section p{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 16px;
+	}
+	#join-us-section .subscribe_btn{
+		background-color: #50C594;
+		color: white;
+		font-size: 14px;
+		border-radius: 3px;
+		transition: 0.6s;
+		margin-top: 10px;
+	}
+	/*end join us css*/
+
+	/*start brand css*/
+	#brand-section{
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+	#brand-section .brand_img{
+		margin: auto;
+		display: block;
+		height: 40px;
+		margin-bottom: 50px;
+	}
+	/*end brand css*/
+}
+
+
+
+/*small device*/
+@media(min-width: 576px) and (max-width: 767px){
+	nav .nav_logo{
+		height: 25px;
+	}
+  	/*start hero css*/
+  	#hero-section{
+	  background: url("../img/banner-7.png") no-repeat center top;
+	  background-size: cover;
+	  background-position: center;
+	  min-height: 550px;
+	}
+	.hero_head{
+		font-family: 'Poppins', sans-serif;
+		font-size: 40px;
+		font-weight: bold;
+		color: #263B5E;
+		margin-bottom: 25px;
+		margin-left: 10px;
+	}
+	.hero_title{
+		font-family: 'Poppins', sans-serif;
+		font-size: 22px;
+		color: #263B5E;
+		margin-left: 10px;
+	}
+	.hero_text{
+		font-family: 'Poppins', sans-serif;
+		color: #A8A8A8;
+		font-size: 16px;
+		margin-bottom: 25px;
+		margin-left: 10px;
+	}
+	.hero_btn{
+		background-color: #263B5E;
+		color: white;
+		font-size: 16px;
+		border-radius: 3px;
+		padding: 8px 10px 8px 10px;
+		transition: 0.6s;
+		margin-left: 10px;
+	}
+	.hero_btn:hover{
+		background-color: transparent;
+		color: #263B5E;
+		font-size: 16px;
+		border-radius: 3px;
+		border: 1px solid #263B5E;
+		padding: 8px 10px 8px 10px;
+		text-decoration: none;
+	}
+	/*end hero css*/
+
+	/*start solution css*/
+	#solution-section{
+		margin-bottom: 80px;
+	}
+	.solution_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+		color: #263B5E;
+		margin-top: 80px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.solution_title{
+		font-family: 'Poppins', sans-serif;
+		font-size: 18px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+		padding-top: 0px;
+		color: #A5A8C5;
+	}
+	/*end solution css*/
+
+	/*start customer support css*/
+	#customer-support-section{
+		background-color: #F9F9FD;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	
+	.cussupport_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+		color: #263B5E;
+		margin-left: 10px;
+		margin-top: 50px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.cussupport_title{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 18px;
+		margin-left: 10px;
+		margin-bottom: 30px;
+		margin-top: 20px;
+		padding-top: 0px;
+	}
+	.card_section{
+		margin-left: 0px;
+	}
+	/*end customer support css*/
+
+
+	/*start service css*/
+	#service-section{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.service_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+		color: #263B5E;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.service_title{
+		font-family: 'Poppins', sans-serif;
+		font-size: 18px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+		padding-top: 0px;
+		color: #A5A8C5;
+	}
+	/*end service css*/
+
+	/*start faq css*/
+	#faq-section{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.faq_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+		color: #263B5E;
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+	.faq_title{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 18px;
+		margin-left: 10px;
+	}
+	.left_border{
+		border-left: 2px solid #50C594;
+		height: 30px;
+		margin-bottom: 30px;
+		margin-left: 10px;
+	}
+	#faq-section .accordion_section li{
+		margin-bottom: 35px;
+		margin-left: 5px;
+	}
+	#faq-section .uk-accordion-title{
+		font-family: 'Poppins', sans-serif;
+		color: #263B5E;
+		font-size: 15px;
+		font-weight: bold;
+		margin-left: 5px;
+	}
+	#faq-section .uk-accordion-content{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 16px;
+		margin-left: 5px;
+	}
+	/*end faq section*/
+
+	/*start price css*/
+	#price-section{
+		background-color: #F9F9FD;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.price_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+		color: #263B5E;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.price_title{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 18px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+	}
+	/*end price css*/
+
+	/*start client css*/
+	#client-section{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.client_head{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+		color: #263B5E;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	#client-section .client_title{
+		font-family: 'Poppins', sans-serif;
+		font-size: 18px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+		color: #A5A8C5;
+	}
+	.border_bottom{
+		border: 1px solid green;
+		width: 10px;
+	}
+	#client-section .uk_head{
+		font-family: 'Poppins', sans-serif;
+		color: #263B5E;
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 10px;
+		padding-bottom: 0px;
+	}
+	/*end client css*/
+
+	/*start join us css*/
+	#join-us-section{
+		padding-top: 0px;
+		padding-bottom: 80px;
+	}
+	#join-us-section .subscribe_section{
+		padding: 50px;
+	}
+	#join-us-section h4{
+		font-family: 'Poppins', sans-serif;
+		color: #50C594;
+		font-size: 22px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	#join-us-section h3{
+		font-family: 'Poppins', sans-serif;
+		color: #263B5E;
+		font-size: 22px;
+		margin-top: 0px;
+		padding-top: 20px;
+	}
+	#join-us-section p{
+		font-family: 'Poppins', sans-serif;
+		color: #A5A8C5;
+		font-size: 16px;
+	}
+	#join-us-section .subscribe_btn{
+		background-color: #50C594;
+		color: white;
+		font-size: 16px;
+		border-radius: 3px;
+		transition: 0.6s;
+		margin-top: 10px;
+	}
+	/*end join us css*/
+
+
+	/*start brand css*/
+	#brand-section{
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+	#brand-section .brand_img{
+		margin: auto;
+		display: block;
+		height: 40px;
+		margin-bottom: 50px;
+	}
+	/*end brand css*/
+
+
+}
+
+
+
+
+

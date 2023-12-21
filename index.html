@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stabig - Responsive Landing Page</title>
+    <!-- Bootstrap v5.3.x css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- jQuery uikit css -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <!-- Style.css file -->
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<!-- Fontawesome css file -->
+  	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  	<!-- flaticon cdn -->
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  	<!-- Google font cdn -->
+  	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- start navbar -->
+    <nav id="navbar_scrollspy" class="navbar navbar-expand-lg bg-white fixed-top sticky shadow-sm">
+	  <div class="container">
+	    <a class="navbar-brand my-2" href="index.html"><img src="img/nav_logo.png" class="nav_logo"></a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span><i class="fa fa-bars"></i></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active" href="index.html">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#customer-support-section">Features</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#service-section">Services</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#faq-section">Faq</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#price-section">Pricing</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#client-section">Client</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#join-us-section">Join Us</a>
+	        </li>
+	      </ul>
+	      <div class="d-flex">
+	      	<a class="btn contact_btn" href="#footer-section">Contact Us</a>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+	<!-- end navbar -->
+
+	<div data-bs-spy="scroll" data-bs-target="#navbar_scrollspy" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+	<!-- start hero section -->
+  	<section id="hero-section">
+	    <div class="primary-overlay">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-start" style="margin-top: 150px;">
+	            <h3 class="hero_head">Build your <br> project with <br> our team</h3>
+	            <p class="hero_title">Creative Business Web Design</p>
+	            <p class="hero_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem modi quos vel delectus facere blanditiis repellen.</p>
+	            <div class="container_btn">
+				  <div class="center">
+				    <a href="#" class="btn hero_btn">Discover More <i class="fa fa-angle-right"></i></a>
+				  </div>
+				</div>
+	            
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+  	</section>
+  	<!-- end hero section -->
+
+
+  	<!-- start solution section -->
+  	<section id="solution-section" class="text-center">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-12">
+  					<h4 class="solution_head">Get Every Solution</h4>
+  					<p class="solution_title">Don't you get what you want?</p>
+  				</div>
+  				<div class="row mx-auto">
+  					<div class="col-12">
+  						<div class="uk-slider-container-offset" uk-slider="autoplay: true; autoplay-interval: 3000;">
+		    				<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+							    <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-child-width-1-5@xl uk-grid">
+							    	<li>
+				            			<div class="uk-card uk-card-default uk-text-center">
+										    <div class="uk-card-body">
+												<img src="img/shield-keyhole.png" class="card_logo" alt="">
+											    <h5 class="card-title">Safe & Reliable</h5>
+											    <h6 class="card-subtitle mt-3 mb-3 text-body-secondary">$2.98 - Month</h6>
+											</div>
+										</div>
+				        			</li>
+				            		<li>
+				            			<div class="uk-card uk-card-default uk-text-center">
+										    <div class="uk-card-body">
+												<img src="img/layer-plus.png" class="card_logo" alt="">
+												<h5 class="card-title">Quick & Easy</h5>
+												<h6 class="card-subtitle mt-3 mb-3 text-body-secondary">$5.80 - Month</h6>
+										    </div>
+										</div>
+				        			</li>
+				        			<li>
+				            			<div class="uk-card uk-card-default uk-text-center">
+										    <div class="uk-card-body">
+												<img src="img/cloud(64px).png" class="card_logo" alt="">
+												<h5 class="card-title">Image Cloud</h5>
+												<h6 class="card-subtitle mt-3 mb-3 text-body-secondary">$0.59 - Month</h6>
+										    </div>
+										</div>
+				        			</li>
+				        			<li>
+				            			<div class="uk-card uk-card-default uk-text-center">
+										    <div class="uk-card-body">
+												<img src="img/mobile-button.png" class="card_logo" alt="">
+											    <h5 class="card-title">Digital Marketing</h5>
+											    <h6 class="card-subtitle mt-3 mb-3 text-body-secondary">$1.78 - Month</h6>
+										    </div>
+										</div>
+				        			</li>
+				        			<li>
+				            			<div class="uk-card uk-card-default uk-text-center">
+										    <div class="uk-card-body">
+												<img src="img/envelope-dot.png" class="card_logo" alt="">
+											    <h5 class="card-title">Email Marketing</h5>
+											    <h6 class="card-subtitle mt-3 mb-3 text-body-secondary">$6.7 - Month</h6>
+											</div>
+										</div>
+				        			</li>
+				        			<li>
+				            			<div class="uk-card uk-card-default uk-text-center">
+										    <div class="uk-card-body">
+												<img src="img/file-medical-alt.png" class="card_logo" alt="">
+											    <h5 class="card-title">Digital Analytics</h5>
+											    <h6 class="card-subtitle mt-3 mb-3 text-body-secondary">$3.2 - Month</h6>
+											</div>
+										</div>
+				        			</li>
+				  					<li>
+				            			<div class="uk-card uk-card-default uk-text-center">
+										    <div class="uk-card-body">
+												<img src="img/search-location.png" class="card_logo" alt="">
+											    <h5 class="card-title">Optimization</h5>
+											    <h6 class="card-subtitle mt-3 mb-3 text-body-secondary">$0.58 - Month</h6>
+											</div>
+										</div>
+				        			</li>
+	  							</ul>
+							    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous" style="color: #4FC594;"></a>
+							    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next" style="color: #4FC594;"></a>
+							</div>
+							    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+						</div>
+  					</div>
+				</div>
+  			</div>
+  		</div>
+  	</section>
+  	<!-- end solution section -->
+
+
+
+  	<!-- start customer support section -->
+  	<section id="customer-support-section">
+  		<div class="container-fluid">
+  			<div class="row">
+  				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+  					<img src="img/customer_support.png" class="cussupport_logo" alt="">
+  				</div>
+  				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+  					<h4 class="cussupport_head">Customer support is our main <br> priority fot your growth <br> at every stage</h4>
+  					<p class="cussupport_title">We're always here to help you.</p>
+  					<div class="row card_section">
+  						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+  							<div class="card mb-3">
+							  <div class="card-body">
+							    <h5 class="card-title fw-semibold mb-3"><i class="fa fa-star text-warning" aria-hidden="true"></i> 4.9</h5>
+							    <h6 class="card-subtitle fw-semibold mb-3">Jhon Smith</h6>
+							    <p class="card-text">Quaerat eligendi voluptate sapiente reiciendis.</p>
+							  </div>
+							</div>
+  						</div>
+  						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+  							<div class="card mb-3">
+							  <div class="card-body">
+							    <h5 class="card-title fw-semibold mb-3"><i class="fa fa-trophy text-warning" aria-hidden="true"></i> Awards</h5>
+							    <h6 class="card-subtitle fw-semibold mb-3">2895<sup>+</sup></h6>
+							    <p class="card-text">Voluptate sapiente reiciendis provident atque.</p>
+							  </div>
+							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+  	<!-- end customer support section -->
+
+
+  	<!-- start service section -->
+  	<section id="service-section">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-12 text-center">
+  					<h4 class="service_head">Our Services</h4>
+  					<p class="service_title">Don't you get what you want?</p>
+  				</div>
+  				<div class="row mx-auto">
+  					<div class="col-12">
+  						<div class="uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-3@l uk-child-width-1-3@xl" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .card; delay: 300; repeat: false">
+  							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+		  						<div class="card text-start mb-3 px-3 py-3 shadow">
+								  <div class="card-body">
+								  	<img src="img/users.png" class="my-0 pb-4" alt="">
+								    <h5 class="card-title fw-semibold my-0 pb-4">Community</h5>
+								    <h6 class="card-text my-0 pb-3">Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.</h6>
+								    <a href="" class="btn card_btn">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								  </div>
+								</div>
+		  					</div>
+		  					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+		  						<div class="card text-start mb-3 px-3 py-3 shadow" uk-scrollspy-class="uk-animation-slide-top">
+								  <div class="card-body">
+								  	<img src="img/screencast (1).png" class="my-0 pb-4" alt="">
+								    <h5 class="card-title fw-semibold my-0 pb-4">Pre-approval</h5>
+								    <h6 class="card-text my-0 pb-3">Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.</h6>
+								    <a href="" class="btn card_btn">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								  </div>
+								</div>
+		  					</div>
+		  					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+		  						<div class="card text-start mb-3 px-3 py-3 shadow">
+								  <div class="card-body">
+								  	<img src="img/apps.png" class="my-0 pb-4" alt="">
+								    <h5 class="card-title fw-semibold my-0 pb-4">Dashboard</h5>
+								    <h6 class="card-text my-0 pb-3">Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.</h6>
+								    <a href="" class="btn card_btn">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								  </div>
+								</div>
+		  					</div>
+		  					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+		  						<div class="card text-start mb-3 px-3 py-3 shadow" uk-scrollspy-class="uk-animation-slide-top">
+								  <div class="card-body">
+								  	<img src="img/note-medical.png" class="my-0 pb-4" alt="">
+								    <h5 class="card-title fw-semibold my-0 pb-4">Reports</h5>
+								    <h6 class="card-text my-0 pb-3">Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.</h6>
+								    <a href="" class="btn card_btn">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								  </div>
+								</div>
+		  					</div>
+		  					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+		  						<div class="card text-start mb-3 px-3 py-3 shadow">
+								  <div class="card-body">
+								  	<img src="img/humidity.png" class="my-0 pb-4" alt="">
+								    <h5 class="card-title fw-semibold my-0 pb-4">Unlimited Colors</h5>
+								    <h6 class="card-text my-0 pb-3">Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.</h6>
+								    <a href="" class="btn card_btn">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								  </div>
+								</div>
+		  					</div>
+		  					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+		  						<div class="card text-start mb-3 px-3 py-3 shadow" uk-scrollspy-class="uk-animation-slide-top">
+								  <div class="card-body">
+								  	<img src="img/settings.png" class="my-0 pb-4" alt="">
+								    <h5 class="card-title fw-semibold my-0 pb-4">Efficient</h5>
+								    <h6 class="card-text my-0 pb-3">Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.</h6>
+								    <a href="" class="btn card_btn">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								  </div>
+								</div>
+		  					</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+  	<!-- end service section -->
+
+  	<hr class="py-0 my-0">
+
+  	<!-- start faq section -->
+  	<section id="faq-section">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+  					<p class="faq_title">Ask Us Anything</p>
+  					<h4 class="faq_head mt-0 pt-0">Frequently Asked Question</h4>
+  					<div class="left_border"></div>
+  					<div class="accordion_section">
+  						<ul uk-accordion>
+						    <li class="uk-open">
+						        <a class="uk-accordion-title" href>Can we put a lot of effort in design?</a>
+						        <div class="uk-accordion-content">
+						        	<hr class="py-0">
+						            <p>High life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.It is a long established fact that a reader will be distracted by the readable.</p>
+						        </div>
+						    </li>
+						    <li>
+						        <a class="uk-accordion-title" href>The most important of successful website?</a>
+						        <div class="uk-accordion-content">
+						        	<hr class="py-0">
+						            <p>Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+						        </div>
+						    </li>
+						    <li>
+						        <a class="uk-accordion-title" href>Submit Your Orgnization?</a>
+						        <div class="uk-accordion-content">
+						        	<hr class="py-0">
+						            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.</p>
+						        </div>
+						    </li>
+						    <li>
+						        <a class="uk-accordion-title" href>New exhibition at our Museum?</a>
+						        <div class="uk-accordion-content">
+						        	<hr class="py-0">
+						            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.</p>
+						        </div>
+						    </li>
+						</ul>
+  					</div>
+  				</div>
+  				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+  					<img src="img/faq.png" class="faq_img" alt="">
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+  	<!-- end faq section -->
+
+
+
+  	<!-- start price section -->
+  	<section id="price-section">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-12 text-center">
+  					<h4 class="price_head">Our Prices</h4>
+  					<p class="price_title">Get Your Best Package</p>
+  				</div>
+  				<div class="row mx-auto">
+  					<div class="col-12">
+  						<div class="uk-slider-container-offset" uk-slider="autoplay: true; autoplay-interval: 5000;">
+	    					<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+						        <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-3@l uk-child-width-1-3@xl uk-grid">
+						            <li>
+						                <div class="uk-card uk-card-default uk-text-center">
+						                    <div class="uk-card-body">
+						                        <h3 class="uk-card-title">BASIC</h3>
+						                        <div class="price_border"></div>
+												<h4 class="my-0 pb-3 price_text">$0</h4>
+												<h4 class="month_text my-0 pb-3">PER MONTH</h4>
+						                        <ul style="list-style-type:none">
+												    <li class="mb-3"><i class="fa fa-check"></i> 10 GB Disk Space</li>
+												    <li class="mb-3"><i class="fa fa-check"></i> 1 Year Technical Suppor</li>
+												    <li class="mb-3"><i class="fa fa-check"></i> SQL Database</li>
+												    <li class="mb-3"><i class="fa fa-check"></i> 10+ Profitable Keyword</li>
+												</ul>
+												<a href="#" class="btn trail_btn">Start Trail <i class="fa fa-angle-right"></i></a>
+						                    </div>
+						                </div>
+						            </li>
+						            <li>
+						                <div class="uk-card uk-card-default uk-text-center">
+						                    <div class="uk-card-body">
+						                        <h3 class="uk-card-title">BUSINESS</h3>
+						                        <div class="price_border"></div>
+												<h4 class="my-0 pb-3 price_text">$20</h4>
+												<h4 class="month_text my-0 pb-3">PER MONTH</h4>
+						                        <ul style="list-style-type:none">
+												    <li class="mb-3"><i class="fa fa-check"></i> 10 GB Disk Space</li>
+												    <li class="mb-3"><i class="fa fa-check"></i> 1 Year Technical Suppor</li>
+												    <li class="mb-3"><i class="fa fa-check"></i> SQL Database</li>
+												    <li class="mb-3"><i class="fa fa-check"></i> 10+ Profitable Keyword</li>
+												</ul>
+												<a href="#" class="btn trail_btn">Start Trail <i class="fa fa-angle-right"></i></a>
+						                    </div>
+						                </div>
+						            </li>
+						            <li>
+						                <div class="uk-card uk-card-default uk-text-center">
+						                    <div class="uk-card-body">
+						                        <h3 class="uk-card-title">PREMIUM</h3>
+						                        <div class="price_border"></div>
+												<h4 class="my-0 pb-3 price_text">$30</h4>
+												<h4 class="month_text my-0 pb-3">PER MONTH</h4>
+						                        <ul style="list-style-type:none">
+												    <li class="mb-3"><i class="fa fa-check"></i> 10 GB Disk Space</li>
+												    <li class="mb-3"><i class="fa fa-check"></i> 1 Year Technical Suppor</li>
+												    <li class="mb-3"><i class="fa fa-check"></i> SQL Database</li>
+												    <li class="mb-3"><i class="fa fa-check"></i> 10+ Profitable Keyword</li>
+												</ul>
+												<a href="#" class="btn trail_btn">Start Trail <i class="fa fa-angle-right"></i></a>
+						                    </div>
+						                </div>
+						            </li>
+						        </ul>
+						        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous" style="color: #4FC594;"></a>
+						        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next" style="color: #4FC594;"></a>
+						    </div>
+						    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>	
+  	</section>
+  	<!-- end price section -->
+
+
+
+  	<!-- start client section -->
+  	<section id="client-section">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-12 text-center">
+  					<h4 class="client_head">Our Client Says</h4>
+  					<p class="client_title">Here From Our Members</p>
+  				</div>
+  				<div class="row mx-auto">
+  					<div class="col-12">
+	  					<div class="uk-slider-container-offset" uk-slider="autoplay: true; autoplay-interval: 4000;">
+	    					<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+						        <ul class="uk-slider-items uk-child-width-1-1@s uk-grid">
+						            <li>
+						                <div class="uk-card uk-card-default text-center py-0 my-0">
+						                    <div class="uk-card-body pt-0 my-0 pb-3">
+						                    	<img src="img/quote-right.png" class="quote_img" alt="" style="width: 70px;">
+						                        <h3 class="uk-card-title uk_head">Brians R. Evans</h3>
+						                        <h3 class="uk-card-title uk_title py-0 my-0">Freelance Software Engineer</h3>
+						                        <div class="border_top"></div>
+						                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius <br> enim in eros elementum tristique. Duis cursus <br> mi quis viverra ornare, eros dolor interdum nulla, ut commodo dia <br> libero vitae erat. Aenean.</p>
+						                    </div>
+						                </div>
+						            </li>
+						            <li>
+						                <div class="uk-card uk-card-default text-center py-0 my-0">
+						                    <div class="uk-card-body pt-0 my-0 pb-3">
+						                    	<img src="img/quote-right.png" class="quote_img" alt="" style="width: 70px;">
+						                        <h3 class="uk-card-title uk_head">Emily B. Parham</h3>
+						                        <h3 class="uk-card-title uk_title py-0 my-0">Senior Web Designer</h3>
+						                        <div class="border_top"></div>
+						                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius <br> enim in eros elementum tristique. Duis cursus <br> mi quis viverra ornare, eros dolor interdum nulla, ut commodo dia <br> libero vitae erat. Aenean.</p>
+						                    </div>
+						                </div>
+						            </li>
+						            <li>
+						                <div class="uk-card uk-card-default text-center py-0 my-0">
+						                    <div class="uk-card-body pt-0 my-0 pb-3">
+						                    	<img src="img/quote-right.png" class="quote_img" alt="" style="width: 70px;">
+						                        <h3 class="uk-card-title uk_head">Denver S. Taylor</h3>
+						                        <h3 class="uk-card-title uk_title py-0 my-0">Web Developer</h3>
+						                        <div class="border_top"></div>
+						                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius <br> enim in eros elementum tristique. Duis cursus <br> mi quis viverra ornare, eros dolor interdum nulla, ut commodo dia <br> libero vitae erat. Aenean.</p>
+						                    </div>
+						                </div>
+						            </li>
+						        </ul>
+						        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous" style="color: #4FC594"></a>
+						        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next" style="color: #4FC594"></a>
+						    </div>
+						    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+						</div>
+	  				</div>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+  	<!-- end client section -->
+
+
+
+  	<!-- start join us section -->
+  	<section id="join-us-section">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 subscribe_section">
+  					<h4 class="fw-semibold">Recent</h4>
+  					<h3 class="fw-semibold">5000+ Project <br> all over the world</h3>
+  					<p>Join the community now !</p>
+  					<form action="" method="post">
+  						<input class="uk-input" type="email" placeholder="enter email" required="">
+  						<button type="submit" class="btn subscribe_btn">Submit <i class="fa fa-paper-plane-o"></i></button>
+  					</form>
+  				</div>
+  				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
+  					<img class="float-right" src="img/subscribe-img.png" alt="">
+  				</div>
+			</div>
+  		</div>
+  	</section>
+  	<!-- end join us section -->
+
+
+
+  	<!-- start brand section -->
+  	<section id="brand-section">
+  		<div class="container">
+  			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+					<img class="brand_img" src="img/brand-logo-1.png" alt="">
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+					<img class="brand_img" src="img/brand-logo-2.png" alt="">
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+					<img class="brand_img" src="img/brand-logo-3.png" alt="">
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+					<img class="brand_img" src="img/brand-logo-4.png" alt="">
+				</div>
+			</div>
+  		</div>
+  	</section>
+  	<!-- end brand section -->
+
+
+
+  	<!-- start footer section -->
+
+  	<footer id="footer-section">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+  					<a href="index.html"><img src="img/logo-light.png" alt="" style="width: 110px;"></a>
+  					<h4 class="fw-semibold">Locate Us</h4>
+  					<p class="text-white-50"><i class="fa fa-map-marker"></i> 3964 White River Way behind <br> Salt Lake City, UT <br> 84106</p>
+  					<p class="pb-0 mb-0"><i class="fa fa-phone"></i> 801-468-2313</p>
+  					<p class="pt-0 mt-0"><i class="fa fa-phone"></i> 591-578-1234</p>
+  				</div>
+  				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+  					<h4 class="fw-semibold">Others Links</h4>
+  					<ul style="list-style-type:square;" class="text-white-50">
+  						<li><a href="#" class="text-white-50">About Us</a></li>
+  						<li><a href="#" class="text-white-50">Contact Us</a></li>
+  						<li><a href="#price-section" class="text-white-50">Pricing</a></li>
+  						<li><a href="#" class="text-white-50">Privacy Policy</a></li>
+  						<li><a href="#" class="text-white-50">Terms & Condition</a></li>
+  					</ul>
+  				</div>
+  				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+					<iframe class="uk-card uk-card-default uk-width-expand" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.691668621678!2d91.81273978885497!3d22.36526820000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd9033f878d35%3A0x926e5b3a1a5d073f!2sAlfalah%20Goli%2C%20East%20Nasirabad%2C%20Chattogram!5e0!3m2!1sen!2sbd!4v1703082105619!5m2!1sen!2sbd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  				</div>
+  			</div>
+  		</div>
+  		<hr>
+  			<div class="copyright_text text-center text-white-50">
+  				<span id="date"></span> &copy Stabig Designed by Md Ajij
+  			</div>
+  			<div class="text-center mt-3 mb-0 pb-0">
+  				<a href="" uk-totop uk-scroll uk-tooltip="Scroll Top" ></a>
+  			</div>
+  			<script>
+  				const d = new Date();
+				document.getElementById("date").innerHTML = d.getFullYear();
+  			</script>
+  	</footer>
+  	<!-- end brand section -->
+  	</div>
+
+
+
+    <!-- Bootstrap v5.3.x js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	<!-- jQuery uikit js -->
+	<script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </body>
+</html>
